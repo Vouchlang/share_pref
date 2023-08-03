@@ -58,7 +58,7 @@ class _FirstState extends State<First> {
             ),
             ElevatedButton(
               onPressed: () {
-                Get.to(ReltimeFirebase());
+                Get.to(RealtimeFirebase());
               },
               child: Text('Realtime Firebase'),
             ),
